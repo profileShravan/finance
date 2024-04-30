@@ -1,0 +1,40 @@
+.transaction-wrapper{
+    /* width: 100%; */
+    padding: 0rem 2rem;
+}
+.table-search-bar{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.table{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.table-btn{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    width: 400px;
+}
+
+.select-input{
+    width: 30% !important;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    box-shadow: var(--shadow-color);
+    border-radius: 0.5rem !important;
+    padding: 0.2rem 0.5rem;
+}
+
+.select-input > div{
+    border: 0px solid #fff !important;
+}
