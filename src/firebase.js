@@ -1,19 +1,19 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-import {getAnalytics} from "firebase/analytics"
-import {getAuth, GoogleAuthProvider} from "firebase/auth"
-import {getFirestore, doc, setDoc} from "firebase/firestore"
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
+import { getAnalytics } from "firebase/analytics";
+import { getAuth, GoogleAuthProvider } from "firebase/auth";
+import { getFirestore, doc, setDoc } from "firebase/firestore";
 
-// Your web app's Firebase configuration
+
+
 const firebaseConfig = {
-  apiKey: "AIzaSyAiqiMt9YhxURLU0jemXzAICJXBSeazoGI",
-  authDomain: "financly-ef22f.firebaseapp.com",
-  projectId: "financly-ef22f",
-  storageBucket: "financly-ef22f.appspot.com",
-  messagingSenderId: "119326070635",
-  appId: "1:119326070635:web:55858a3cb8f429a4985e2e"
+  apiKey: "AIzaSyCusMpfmb39Vao1pLE4-QAcPM34vcRlubU",
+  authDomain: "financely-finance-tracke-e60ec.firebaseapp.com",
+  projectId: "financely-finance-tracke-e60ec",
+  storageBucket: "financely-finance-tracke-e60ec.appspot.com",
+  messagingSenderId: "864856685867",
+  appId: "1:864856685867:web:791b404fd209320d55596e",
+  measurementId: "G-B6N4HVDCD3"
 };
 
 // Initialize Firebase
@@ -22,4 +22,4 @@ const analytics = getAnalytics(app);
 const db = getFirestore(app);
 const auth = getAuth(app);
 const provider = new GoogleAuthProvider();
-export {db, auth, provider, doc, setDoc};
+export {db,auth,provider,doc,setDoc};
